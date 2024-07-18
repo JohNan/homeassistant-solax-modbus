@@ -1,6 +1,6 @@
 {
-  "domain": "solax_modbus",
-  "name": "SolaX Inverter Modbus",
+  "domain": "growatt_solax_modbus",
+  "name": "Growatt SolaX Inverter Modbus",
   "codeowners": ["@wills106"],
   "config_flow": true,
   "dependencies": [],
