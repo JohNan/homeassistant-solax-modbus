@@ -34,7 +34,7 @@ from homeassistant.const import (
 
 # ================================= Definitions for config_flow ==========================================================
 
-DOMAIN = "solax_modbus"
+DOMAIN = "growatt_solax_modbus"
 INVERTER_IDENT = "inverter"
 DEFAULT_NAME = "SolaX"
 DEFAULT_INVERTER_NAME_SUFFIX = "Inverter"
