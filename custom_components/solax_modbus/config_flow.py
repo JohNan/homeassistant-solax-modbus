@@ -181,7 +181,7 @@ async def _validate_host(handler: SchemaCommonFlowHandler, user_input: Any) -> A
 
     pluginconf_name = handler.options[CONF_PLUGIN]
     plugin = await handler.parent_handler.hass.async_add_executor_job(_load_plugin, pluginconf_name)
-    user_input["support-battery"] = plugin.plugin_instance.BATTERY_CONFIG is not None
+    #user_input["support-battery"] = plugin.plugin_instance.BATTERY_CONFIG is not None
 
     return user_input
 
