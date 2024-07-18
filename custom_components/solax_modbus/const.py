@@ -34,7 +34,7 @@ from homeassistant.const import (
 
 # ================================= Definitions for config_flow ==========================================================
 
-DOMAIN = "solax_modbus"
+DOMAIN = "growatt_solax_modbus"
 DEFAULT_NAME = "SolaX"
 DEFAULT_SCAN_INTERVAL = 15
 DEFAULT_PORT = 502
