@@ -762,7 +762,20 @@ SELECT_TYPES = [
                 0: "Load First",
                 1: "Battery First",
                 2: "Grid First", },
-        allowedtypes = GEN2 | GEN3,
+        allowedtypes = GEN2,
+        entity_category = EntityCategory.CONFIG,
+        icon = "mdi:run",
+    ),
+
+    GrowattModbusSelectEntityDescription(
+        name = "Priority",
+        key = "priority",
+        register = 3038,
+        option_dict = {
+                32768: "Load First",
+                40960: "Battery First",
+                49152: "Grid First", },
+        allowedtypes = HYBRID | GEN3,
         entity_category = EntityCategory.CONFIG,
         icon = "mdi:run",
     ),
